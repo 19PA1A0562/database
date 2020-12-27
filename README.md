@@ -25,7 +25,7 @@ So we decided to have a chatterbot that will provide quiz and you can find the a
 
 ## repl link
 https://repl.it/@ChikkalaPavitra/chatterbot#index.html
-( chatterbot is not deploying in heroku, so we uploaded the repl link)
+( chatterbot is not deploying in heroku, so we uploaded the repl link and flask sqlite is not working in repl )
 
 ## vedio link
 https://youtu.be/SnE-WlVeq1s

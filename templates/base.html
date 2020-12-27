@@ -158,7 +158,7 @@
 
 			<div id="body">
 				<div id="message-area" class="message-area"> <div class="container2"><div><img style="height:60px;width:75px;border-radius:50%;float:left;" src="https://miro.medium.com/proxy/1*8mpWApzQD5gZZlnYYUkbcA.png"></div><div class="message-box others-message-box" >
-					<div class="message others-message"><h3>Welcome to Quiz Bot <br> Enter your name. </h3></div>
+					<div class="message others-message"><h3>Welcome to Quiz Bot <br> Type quiz to start quiz </h3></div>
 					<div class="separator"></div>
 				</div></div></div>
 				
@@ -359,7 +359,7 @@
 				return rawText;
 			}
 			if(rawText.toLowerCase().includes("hi") || rawText.toLowerCase().includes("helo")){
-				userMsg("Welcome to chat bot.Enter your name");
+				userMsg("Welcome to chat bot.Type quiz to start quiz");
 			}
 			else if(rawText=="quiz"){
 				userMsg('<h4>'+"  Pls select topic number  "+'<br>'+"1.Knowledge"+'<br>'+"2.Computer"+'<br>'+"3.Food"+'<br>'+"4.Environment"
@@ -378,11 +378,11 @@
 			else{
 				userMsg("Type quiz to start the quiz");
 			}
-			//else{
-			//	$.get("/get", { msg: rawText }).done(function(data) {
-			//		userMsg(data);
-			//	})
-			//}
+			/*else{
+				$.get("/get", { msg: rawText }).done(function(data) {
+					userMsg(data);
+				})
+			}*/
 
 		}		
 	</script>

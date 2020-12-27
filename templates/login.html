@@ -1,0 +1,86 @@
+<html>
+<style>
+body{
+	background-color: #ff97ac;
+}
+.container {
+  position: absolute;
+  right: 0;
+  margin: 500px;
+  max-width: 200px;
+  padding: 60px;
+  background-color: pink;
+  border-radius:30px;
+  margin-top:190px;
+
+}
+.container i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+.bg-img {
+    background-image: url(mybus.jpg);
+    min-height: 980px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.left-forget{
+	padding:67px;
+}
+
+</style>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	
+	<title>
+		
+	</title>
+</head>
+<body>
+	<div>
+		<div class="bg-img">
+		  <form action = "" method="POST" class="container">
+		  	<h1>Create a new account</h1>
+		  	<button class="btn"><a href="/register">Signup</a></button>
+		  	<h2>or</h2>
+		    <h1>Login</h1><h3> with exixting  account</h3> 
+
+		    <label for="username"><b>USERNAME</b></label>
+		    <input type="text" placeholder="username" name="uname" required>
+
+		    <label for="lpsw"><b>Password</b></label>
+		    <input type="password" placeholder="Enter Password" name="passw" id="myInput" required>
+		    <input type="checkbox" onclick="myFunction()">Show Password<br>
+		    <button type="submit" class="btn">Login</button>
+		    <br><br><br><br><br>
+
+		  </form>
+		</div>
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myInput");
+		  if (x.type === "password") {
+		    x.type = "text";
+		  } else {
+		    x.type = "password";
+		  }
+		}
+	</script>
+</body>
+</html>

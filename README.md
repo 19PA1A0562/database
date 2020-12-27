@@ -28,4 +28,4 @@ https://repl.it/@ChikkalaPavitra/chatterbot#index.html
 ( chatterbot is not deploying in heroku, so we uploaded the repl link)
 
 ## vedio link
-https://youtu.be/wQDTd_c4BhI
+https://youtu.be/SnE-WlVeq1s
